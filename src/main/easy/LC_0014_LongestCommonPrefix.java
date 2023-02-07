@@ -1,6 +1,6 @@
 package main.easy;
 
-public class LC_14_LongestCommonPrefix {
+public class LC_0014_LongestCommonPrefix {
 
     /**
      * Question : https://leetcode.com/problems/longest-common-prefix/
@@ -15,7 +15,7 @@ public class LC_14_LongestCommonPrefix {
 //        String[] s = {"","",""};
         String[] s = {"flower","flower","flower"};
 
-        String result = new LC_14_LongestCommonPrefix().longestCommonPrefix(s);
+        String result = new LC_0014_LongestCommonPrefix().longestCommonPrefix(s);
 
         System.out.println(result);
     }

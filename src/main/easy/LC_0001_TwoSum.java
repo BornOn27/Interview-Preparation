@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-public class LC_1_TwoSum {
+public class LC_0001_TwoSum {
 
     /**
      * Question : https://leetcode.com/problems/two-sum/
@@ -14,7 +14,7 @@ public class LC_1_TwoSum {
      */
     public static void main(String[] args) {
         int[] num = {3,3};
-        int[] result = new LC_1_TwoSum().twoSum(num, 6);
+        int[] result = new LC_0001_TwoSum().twoSum(num, 6);
 
         System.out.println(result[0]+","+result[1]);
     }
