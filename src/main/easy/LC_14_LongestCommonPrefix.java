@@ -1,4 +1,4 @@
-package easy;
+package main.easy;
 
 public class LC_14_LongestCommonPrefix {
 
