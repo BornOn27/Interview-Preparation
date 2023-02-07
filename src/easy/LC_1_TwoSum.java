@@ -7,8 +7,8 @@ import java.util.List;
 public class LC_1_TwoSum {
 
     /**
-     * Question-Link : https://leetcode.com/problems/two-sum/
-     *  Notes :
+     * Question : https://leetcode.com/problems/two-sum/
+     * Notes :
      *      - Instead of "Creating and then Checking", we can "Check and Create"
      *
      */
