@@ -1,6 +1,6 @@
-package main.top_interview_questions.easy;
+package main.topInterviewQuestions.easy;
 
-import helper.TreeNode;
+import main.helper.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

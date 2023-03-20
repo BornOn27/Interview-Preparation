@@ -1,4 +1,4 @@
-package main.top_interview_questions.easy;
+package main.topInterviewQuestions.easy;
 
 public class LC_0088_MergeSortedArray {
 

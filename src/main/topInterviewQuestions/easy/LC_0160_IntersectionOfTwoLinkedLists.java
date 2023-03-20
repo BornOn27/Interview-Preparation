@@ -1,6 +1,6 @@
-package main.top_interview_questions.easy;
+package main.topInterviewQuestions.easy;
 
-import helper.ListNode;
+import main.helper.listNode.ListNode;
 
 public class LC_0160_IntersectionOfTwoLinkedLists {
 
