@@ -1,4 +1,4 @@
-package main.easy;
+package main.top_interview_questions.easy;
 
 public class LC_0121_BestTimeToBuyAndSellStock {
 
