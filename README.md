@@ -11,7 +11,7 @@
 ## Top Interview Questions
 - Link - [Top Interview Questions](https://leetcode.com/problem-list/top-interview-questions/)
 
-## Easy Set
+### Easy Set
 
 | S. No | Link | Tag | Solved/Unsolved|
 |--|--|--|--|
