@@ -1,7 +1,7 @@
 package main.helper.listNode;
 
 public class ListNodeHelper {
-    public static void PrintList(ListNode list){
+    public static void printList(ListNode list){
         ListNode temp = list;
         while (temp != null){
             System.out.print(temp+", ");
@@ -12,6 +12,9 @@ public class ListNodeHelper {
     }
 
     public static ListNode createList(int[] arr){
+        if(arr.length == 0)
+            return null;
+
         ListNode head = new ListNode(arr[0]);
         ListNode temp = head;
 

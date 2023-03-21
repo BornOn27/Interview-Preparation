@@ -11,10 +11,10 @@ public class LC_0019_RemoveNthNodeFromEndOfList {
     public static void main(String[] args) {
         int[] arr = {1,2,3,4,5};
         ListNode head = ListNodeHelper.createList(arr);
-        ListNodeHelper.PrintList(head);
+        ListNodeHelper.printList(head);
 
         ListNode result = new LC_0019_RemoveNthNodeFromEndOfList().removeNthFromEnd(head, 5);
-        ListNodeHelper.PrintList(result);
+        ListNodeHelper.printList(result);
 
     }
 
