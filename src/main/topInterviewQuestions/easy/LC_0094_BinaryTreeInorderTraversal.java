@@ -1,6 +1,6 @@
 package main.topInterviewQuestions.easy;
 
-import main.helper.TreeNode;
+import main.helper.treeNode.TreeNode;
 
 import java.util.ArrayList;
 import java.util.List;

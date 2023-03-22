@@ -1,6 +1,6 @@
 package main.topInterviewQuestions.easy;
 
-import main.helper.TreeNode;
+import main.helper.treeNode.TreeNode;
 
 public class LC_0101_SymmetricTree {
 

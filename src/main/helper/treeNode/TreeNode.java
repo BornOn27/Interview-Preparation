@@ -1,4 +1,4 @@
-package main.helper;
+package main.helper.treeNode;
 
 public class TreeNode {
     public int val;
