@@ -1,17 +1,17 @@
 # In-place reversal of linked list
 
 
-| S. No | Question | Difficulty |
+| S. No | Question | Status |
 |--|--|--|
-| 1 |[19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)   |  |
-|2 |[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)   | |
-|3 |[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)   | |
-|4 |[24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  | |
-|5 |[25. Reverse-Nodes-in-k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)   | |
-|6 |[61. Rotate List](https://leetcode.com/problems/rotate-list/)   | |
-|7 |[82. Remove-Duplicates-from-Sorted-List-II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| |
-|8 |[86. Partition-List](https://leetcode.com/problems/partition-list/)   | |
-|9 |[92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)  | |
+| 1 |[19. Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)   | Done |
+|2 |[21. Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)   |Done |
+|3 |[23. Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)   | Done|
+|4 |[24. Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/)  |Done |
+|5 |[25. Reverse-Nodes-in-k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/)   | Done|
+|6 |[61. Rotate List](https://leetcode.com/problems/rotate-list/)   | Done|
+|7 |[82. Remove-Duplicates-from-Sorted-List-II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/)| Done|
+|8 |[86. Partition-List](https://leetcode.com/problems/partition-list/)   | Done|
+|9 |[92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)  | Done|
 |10 |[109. Convert-Sorted-List-to-Binary-Search-Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)   | |
 |11 |[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)   | |
 |12 |[142. Linked-List-Cycle-II](https://leetcode.com/problems/linked-list-cycle-ii/)   | |
