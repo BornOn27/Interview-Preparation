@@ -13,7 +13,7 @@
 |8 |[86. Partition-List](https://leetcode.com/problems/partition-list/)   | Done|
 |9 |[92. Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/)  | Done|
 |10 |[109. Convert-Sorted-List-to-Binary-Search-Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/)   | |
-|11 |[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)   | |
+|11 |[141. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)   | Done|
 |12 |[142. Linked-List-Cycle-II](https://leetcode.com/problems/linked-list-cycle-ii/)   | |
 |13 |[143. Reorder-List](https://leetcode.com/problems/reorder-list/)  | |
 |14 |[206. Reverse-Linked-List](https://leetcode.com/problems/reverse-linked-list/)  | |
