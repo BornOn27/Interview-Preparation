@@ -5,6 +5,8 @@
 | S. No | Pattern | No. of Problems|
 |--|--|--|
 | 1 |  [In-Place Reversal of LinkedList](https://github.com/BornOn27/LeetCode-Interview-Preparation/tree/main/src/main/problemsByPattern/inPlaceReversalOfLinkedList "inPlaceReversalOfLinkedList") | 24 |
+| 2 | [Top Interview Questions](https://github.com/BornOn27/LeetCode-Interview-Preparation/tree/main/src/main/topInterviewQuestions) | 
+
 
 
 
