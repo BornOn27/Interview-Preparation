@@ -7,4 +7,11 @@ public class Util {
         }
         System.out.println();
     }
+
+    public static void printArrTillN(int[] arr, int n){
+        for (int i = 0; i < n; i++) {
+            System.out.print(arr[i]+", ");
+        }
+        System.out.println();
+    }
 }
