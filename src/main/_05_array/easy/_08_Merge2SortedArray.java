@@ -1,4 +1,4 @@
-package main._05_array;
+package main._05_array.easy;
 
 import java.util.ArrayList;
 import java.util.List;

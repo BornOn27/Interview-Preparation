@@ -1,4 +1,4 @@
-package main._05_array;
+package main._05_array.easy;
 
 public class _01_LargestElementInTheArray {
     //Question-Link :: https://www.codingninjas.com/studio/problems/largest-element-in-the-array-largest-element-in-the-array_5026279

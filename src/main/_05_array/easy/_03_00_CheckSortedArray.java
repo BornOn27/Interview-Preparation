@@ -1,4 +1,4 @@
-package main._05_array;
+package main._05_array.easy;
 
 public class _03_00_CheckSortedArray {
 

@@ -1,7 +1,7 @@
-package main._05_array;
+package main._05_array.easy;
 
 public class _09_MissingNumber {
-    //Question-Link ::
+    //Question-Link :: https://leetcode.com/problems/missing-number/description/
 
     public static void main(String[] args) {
         System.out.println(new _09_MissingNumber().missingNumber(new int[]{9,6,4,2,3,5,7,0,1}));

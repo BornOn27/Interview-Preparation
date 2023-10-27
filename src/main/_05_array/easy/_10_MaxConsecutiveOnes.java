@@ -1,4 +1,4 @@
-package main._05_array;
+package main._05_array.easy;
 
 public class _10_MaxConsecutiveOnes {
     //Question-Link :: https://leetcode.com/problems/max-consecutive-ones/description/

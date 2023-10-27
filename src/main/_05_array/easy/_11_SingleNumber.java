@@ -1,4 +1,4 @@
-package main._05_array;
+package main._05_array.easy;
 
 public class _11_SingleNumber {
     //Question-Link :: https://leetcode.com/problems/single-number/

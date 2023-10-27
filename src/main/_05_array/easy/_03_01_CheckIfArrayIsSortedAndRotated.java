@@ -1,4 +1,4 @@
-package main._05_array;
+package main._05_array.easy;
 
 public class _03_01_CheckIfArrayIsSortedAndRotated {
     //Question-Link :: https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
