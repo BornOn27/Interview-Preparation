@@ -1,4 +1,4 @@
-package main._05_array.medium;
+package main._05_array._2_medium;
 
 public class _04_MaximumSubarray {
     //Question-Link :: https://leetcode.com/problems/maximum-subarray/

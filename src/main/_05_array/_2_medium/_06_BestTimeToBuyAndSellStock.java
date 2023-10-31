@@ -1,6 +1,4 @@
-package main._05_array.medium;
-
-import main._00_helper.Util;
+package main._05_array._2_medium;
 
 public class _06_BestTimeToBuyAndSellStock {
     //Question-Link :: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/

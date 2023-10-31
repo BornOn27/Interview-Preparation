@@ -1,4 +1,4 @@
-package main._05_array.medium;
+package main._05_array._2_medium;
 
 import main._00_helper.Util;
 

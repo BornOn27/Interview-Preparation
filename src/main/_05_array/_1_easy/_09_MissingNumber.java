@@ -1,4 +1,4 @@
-package main._05_array.easy;
+package main._05_array._1_easy;
 
 public class _09_MissingNumber {
     //Question-Link :: https://leetcode.com/problems/missing-number/description/

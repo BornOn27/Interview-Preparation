@@ -1,4 +1,4 @@
-package main._05_array.easy;
+package main._05_array._1_easy;
 
 public class _07_LinearSearch {
     //Question-Link :: https://www.codingninjas.com/studio/problems/linear-search_6922070

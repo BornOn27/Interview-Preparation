@@ -1,4 +1,4 @@
-package main._05_array.easy;
+package main._05_array._1_easy;
 
 public class _12_LongestSubarrayWithSumK_PositiveNumbersOnly {
     //Question-Link :: https://www.codingninjas.com/studio/problems/longest-subarray-with-sum-k_6682399
