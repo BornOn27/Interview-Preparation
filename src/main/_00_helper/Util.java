@@ -14,4 +14,21 @@ public class Util {
         }
         System.out.println();
     }
+
+    public static void printArrWindow(int[] arr, int start, int end){
+        for(int i = start;i <= end;i++) {
+            System.out.print(arr[i]+", ");
+        }
+        System.out.println();
+    }
+
+    public static void printArr(int[][] arr){
+        for (int[] thisArr : arr){
+            for (int n : thisArr) {
+                System.out.print(n+", ");
+            }
+            System.out.println();
+        }
+        System.out.println();
+    }
 }

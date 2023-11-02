@@ -2,12 +2,12 @@ package main._05_array._1_easy;
 
 import main._00_helper.Util;
 
-public class _06_MoveZeroes {
+public class _07_MoveZeroes {
     //Question-Link :: https://leetcode.com/problems/move-zeroes/description/
 
     public static void main(String[] args) {
         int[] arr = new int[]{0,1,0,3,12};
-        new _06_MoveZeroes().moveZeroes(arr);
+        new _07_MoveZeroes().moveZeroes(arr);
         Util.printArr(arr);
     }
 

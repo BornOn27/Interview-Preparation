@@ -1,10 +1,10 @@
 package main._05_array._1_easy;
 
-public class _11_SingleNumber {
+public class _12_SingleNumber {
     //Question-Link :: https://leetcode.com/problems/single-number/
 
     public static void main(String[] args) {
-        System.out.println(new _11_SingleNumber().singleNumber(new int[]{4,1,2,1,2}));
+        System.out.println(new _12_SingleNumber().singleNumber(new int[]{4,1,2,1,2}));
     }
 
     public int singleNumber(int[] nums) {

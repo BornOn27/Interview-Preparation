@@ -1,6 +1,6 @@
 package main._05_array._1_easy;
 
-public class _12_LongestSubarrayWithSumK_PositiveNumbersOnly {
+public class _13_LongestSubarrayWithSumK_PositiveNumbersOnly {
     //Question-Link :: https://www.codingninjas.com/studio/problems/longest-subarray-with-sum-k_6682399
 
     public static void main(String[] args) {

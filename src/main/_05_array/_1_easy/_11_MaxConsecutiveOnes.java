@@ -1,10 +1,10 @@
 package main._05_array._1_easy;
 
-public class _10_MaxConsecutiveOnes {
+public class _11_MaxConsecutiveOnes {
     //Question-Link :: https://leetcode.com/problems/max-consecutive-ones/description/
 
     public static void main(String[] args) {
-        System.out.println(new _10_MaxConsecutiveOnes().findMaxConsecutiveOnes(new int[]{1,1,0,1,1,1}));
+        System.out.println(new _11_MaxConsecutiveOnes().findMaxConsecutiveOnes(new int[]{1,1,0,1,1,1}));
     }
 
     public int findMaxConsecutiveOnes(int[] nums) {

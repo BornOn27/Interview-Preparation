@@ -1,6 +1,6 @@
 package main._05_array._1_easy;
 
-public class _07_LinearSearch {
+public class _08_LinearSearch {
     //Question-Link :: https://www.codingninjas.com/studio/problems/linear-search_6922070
 
     public static void main(String[] args) {

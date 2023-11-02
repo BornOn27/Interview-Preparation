@@ -12,11 +12,34 @@ public class _05_RotateArray {
     }
 
     public void rotate(int[] nums, int k) {
-        int index = k % nums.length;
-        rotateArr(nums, k, index, nums[0]);
+        k = k % nums.length;
+
+        reverse(nums, 0, nums.length-1);
+        reverse(nums, 0, k-1);
+        reverse(nums, k, nums.length-1);
     }
 
-    private void rotateArr(int[] arr, int k, int index, int prevNum){
+    private void reverse(int[] arr, int start, int end){
+//        Util.printArrWindow(arr, start, end);
+//        int ss = start;
+//        int ee = end;
+        while (start <= end){
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+            start++;
+            end--;
+        }
+//        Util.printArrWindow(arr, ss, ee);
+    }
+
+
+    public void rotate_TLE(int[] nums, int k) {
+        int index = k % nums.length;
+        rotateArr_TLE(nums, k, index, nums[0]);
+    }
+
+    private void rotateArr_TLE(int[] arr, int k, int index, int prevNum){
         if(index == 0){
             return;
         }
@@ -25,6 +48,6 @@ public class _05_RotateArray {
         arr[index] = prevNum;
         int nextIndex = (index + k) % arr.length;
 
-        rotateArr(arr, k, nextIndex, currentNum);
+        rotateArr_TLE(arr, k, nextIndex, currentNum);
     }
 }

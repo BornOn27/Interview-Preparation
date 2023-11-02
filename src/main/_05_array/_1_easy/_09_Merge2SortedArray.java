@@ -3,7 +3,7 @@ package main._05_array._1_easy;
 import java.util.ArrayList;
 import java.util.List;
 
-public class _08_Merge2SortedArray {
+public class _09_Merge2SortedArray {
     //Question-Link :: https://www.codingninjas.com/studio/problems/sorted-array_6613259
 
     public static void main(String[] args) {
