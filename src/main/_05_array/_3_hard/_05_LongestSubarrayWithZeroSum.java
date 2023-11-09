@@ -11,7 +11,25 @@ public class _05_LongestSubarrayWithZeroSum {
     }
 
     public static int getLongestZeroSumSubarrayLength(int []arr){
-        // Write your code here.
-        return 1;
+        int result = 0;
+        Long prefixSum = 0L;
+
+        Map<Long, Integer> map = new HashMap<>();
+        map.put(0L, -1);
+
+        for (int i = 0; i < arr.length; i++) {
+            prefixSum += arr[i];
+
+            if(map.containsKey(prefixSum)){
+                result = Math.max(result, i - map.get(prefixSum));
+//                System.out.println("result :: "+result+" "+i);
+            } else {
+                map.put(prefixSum, i);
+            }
+
+//            System.out.println(map);
+        }
+
+        return result;
     }
 }
