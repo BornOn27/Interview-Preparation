@@ -11,16 +11,19 @@ public class _4_CountTheNumberOfSubarraysWithGivenXorK {
     }
 
     public static int subarraysWithSumK(int []arr, int b) {
-        long prefixXor = 0;
-        Map<Long, Integer> map = new HashMap<>();
         int result = 0;
+        HashMap<Integer, Integer> map = new HashMap<>();
+        int prefixXor = 0;
+        map.put(prefixXor, 1);
 
         for (int i = 0; i < arr.length; i++) {
             prefixXor ^= arr[i];
 
-            if(map.containsKey(prefixXor)){
-                result = Math.max(result, i - map.get(prefixXor));
-            } else map.put(prefixXor, i);
+            if(map.containsKey(prefixXor ^ b)){
+                result += map.get(prefixXor ^ b);
+            }
+
+            map.put(prefixXor, map.getOrDefault(prefixXor, 0) + 1);
         }
 
         return result;

@@ -9,49 +9,54 @@ import java.util.List;
 public class _08_NextPermutation {
     //Question-Link :: https://leetcode.com/problems/next-permutation/description/
 
+    /*
+        1. Find Dipping Point
+        2. Swap it with next greater number
+        3. Reverse all after dipping point
+     */
     public static void main(String[] args) {
         int[] arr = new int[]{3,2,1};
         new _08_NextPermutation().nextPermutation(arr);
         Util.printArr(arr);
     }
 
-    List<int[]> result = new ArrayList<>();
     public void nextPermutation(int[] nums) {
-        int[] thisArr = nums.clone();
-        Arrays.sort(thisArr);
-        printPermutations(thisArr, 0);
-
-        for (int i = 0; i < result.size(); i++) {
-
-            if(Arrays.equals(result.get(i), nums)){
-                int[] ans = result.get((i+1) % result.size());
-
-                for (int j = 0; j < ans.length; j++) {
-                    nums[j] = ans[j];
-                }
+        int targetIndex = -1;
+        for (int i = nums.length-2; i > -1; i--) {
+            if(nums[i] < nums[i+1]){
+                targetIndex = i;
                 break;
             }
         }
 
-    }
-
-    private void printPermutations(int[] arr, int index){
-        if(index >= arr.length){
-            result.add(arr.clone());
-//            Util.printArr(arr);
-            return;
-        }
-
-        for (int i = index; i < arr.length; i++) {
-            swap(arr, index, i);
-            printPermutations(arr, index+1);
-            swap(arr, index, i);
+        if(targetIndex == -1){
+            reverseArray(nums, 0, nums.length-1);
+        } else {
+            int nextGreater = findNextGreater(nums, targetIndex);
+            int temp = nums[nextGreater];
+            nums[nextGreater] = nums[targetIndex];
+            nums[targetIndex] = temp;
+            reverseArray(nums, targetIndex+1, nums.length-1);
         }
     }
 
-    private void swap(int[] arr, int i, int j){
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
+    private int findNextGreater(int[] nums, int targetIndex) {
+
+        for (int i = nums.length-1; i > targetIndex; i--) {
+            if(nums[i] > nums[targetIndex])
+                return i;
+        }
+
+        return -1;
+    }
+
+    private void reverseArray(int[] arr, int start, int end){
+        while (start < end){
+            int temp = arr[start];
+            arr[start] = arr[end];
+            arr[end] = temp;
+
+            start++;end--;
+        }
     }
 }

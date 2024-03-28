@@ -7,7 +7,38 @@ public class _13_LongestSubarrayWithSumK_PositiveNumbersOnly {
         System.out.println(longestSubarrayWithSumK(new int[]{1,2,1,3}, 2));
     }
 
-    public static int longestSubarrayWithSumK(int []a, long k) {
+    /*
+        When the number is bigger, the sum turns into negative due to start movement,
+        But in the next Iteration, when end moves forward it add the same number and it becomes '0'
+     */
+    public static int longestSubarrayWithSumK(int []arr, long k) {
+        int result = 0;
+        long sum = 0;
+        int start = 0, end = -1, n = arr.length;
+
+        while (start < n){
+            while ((end + 1) < n && sum + arr[end + 1] <= k){
+//                System.out.println("S :: "+start+" E :: "+end+" Sum :: "+sum);
+                sum += arr[++end];
+//                System.out.println("S :: "+start+" E :: "+end+" Sum :: "+sum);
+//                System.out.println();
+            }
+
+            if(sum == k){
+                result = Math.max(result, end - start + 1);
+            }
+
+//            System.out.println("S :: "+start+" E :: "+end+" Sum :: "+sum);
+            sum -= arr[start++];
+//            System.out.println("S :: "+start+" E :: "+end+" Sum :: "+sum);
+//            System.out.println();
+        }
+
+        return result;
+    }
+
+
+    public static int longestSubarrayWithSumK_NotOptimal(int []a, long k) {
         // Write your code here
         if(a.length == 1){
             if(a[0] == k)
